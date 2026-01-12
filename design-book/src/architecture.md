@@ -86,7 +86,7 @@ There are some elements not covered in this example, but worth mentioning:
 
 #### .bevyignore
 
-We should have a file similar to `.gitignore` that would omit files from being included in the editor's project tree or any other behing-the-scenes file touching/analysis the editor does. BurntSushi's [ignore crate](https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore) has a `.gitignore` implementation we can use here.
+We should have a file similar to `.gitignore` that would omit files from being included in the editor's project tree or any other behind-the-scenes file touching/analysis the editor does. BurntSushi's [ignore crate](https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore) has a `.gitignore` implementation we can use here.
 
 #### Building `lib_game`
 
